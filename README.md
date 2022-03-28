@@ -8,18 +8,15 @@ This code has been evaluated on Matlab.
 
 
 #### Citation:
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The program is to evaluate the MSRL algorithm and these codes are for the paper:
 
 Z. Zhang, L. Shao, Y. Xu, L. Liu, J. Yang, Learning Marginal Visual Representation With Graph Structure Self-Adaptation, 
 Accepted by IEEE Transactions on Neural Networks and Learning Systems, DOI：***, 2017.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ============================================================================================
+% ===========================================
 % File description:
-% ============================================================================================
+% ===========================================
 
 main_SMSRL: main function for classification including the supervised and semi-supervised MSRL algorithms
 utility file:
@@ -31,21 +28,20 @@ sperate_data: Seperate the training and test data
 
 SolveHomotopy:   l1-Homotopy: http://users.ece.gatech.edu/~sasif/homotopy/
 
-% ===========================================================================================
+% ===========================================
 % How TO RUN THE CODE
-% ===========================================================================================
+% ===========================================
 
 For image classification:
 Please derectly run the matlab file "main_SMSRL.m"
 
-% ===========================================================================================
+% ===========================================
 % OTHERS
-% ===========================================================================================
+% ===========================================
 Note: This program only presents the image classification results on the Extended YaleB database
 
 WORK SETTING:
     This code has been compiled and tested by using matlab 7.0 and R2013a
-
 
 ```
 @article{zhang2018marginal,
